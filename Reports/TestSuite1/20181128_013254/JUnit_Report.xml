@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="30" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="1" failures="0" errors="0" time="30" timestamp="2018-11-28 01:32:59" hostname="KSS - 192.168.27.108" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/apple/MyWorkPlace/myWorkspace/KatalonWorkspace/Sample Project/Reports/TestSuite1/20181128_013254"/>
+         <property name="logFiles" value="/Users/apple/MyWorkPlace/myWorkspace/KatalonWorkspace/Sample Project/Reports/TestSuite1/20181128_013254/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KSS - 192.168.27.108"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Firefox 63.0"/>
+         <property name="hostAddress" value="192.168.27.108"/>
+         <property name="sessionId" value="34bdff80-77dc-9142-af57-b5f7f1e8fd26"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/DragNDrop" classname="Test Cases/DragNDrop" status="PASSED">
+         <system-out><![CDATA[2018-11-28 01:33:00 - [TEST_CASE][PASSED] - Test Cases/DragNDrop: Test Cases/DragNDrop
+
+2018-11-28 01:33:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-11-28 01:33:15 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-11-28 01:33:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://jqueryui.com/droppable/' successfully
+
+2018-11-28 01:33:18 - [MESSAGE][PASSED] - Navigate to 'http://jqueryui.com/droppable/' successfully
+
+2018-11-28 01:33:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-28 01:33:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-28 01:33:22 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/dragDrop/Page_Droppable/iframe_Visual'
+
+2018-11-28 01:33:22 - [TEST_STEP][PASSED] - dragAndDropToObject: Dragged object with id 'Object Repository/dragDrop/Page_Droppable/div_DragMe' to object with id 'TestObject - 'Object Repository/dragDrop/Page_Droppable/div_Dropped'' successfully
+
+2018-11-28 01:33:23 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/dragDrop/Page_Droppable/div_DragMe' to object with id 'TestObject - 'Object Repository/dragDrop/Page_Droppable/div_Dropped'' successfully
+
+2018-11-28 01:33:23 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-28 01:33:28 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-28 01:33:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-28 01:32:59 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/DragNDrop]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

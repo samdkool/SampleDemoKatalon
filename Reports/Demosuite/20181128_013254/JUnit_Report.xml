@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demosuite" time="32" tests="2" failures="0" errors="0">
+   <testsuite name="Demosuite" tests="2" failures="0" errors="0" time="32" timestamp="2018-11-28 01:32:58" hostname="KSS - 192.168.27.108" id="Test Suites/Demosuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/apple/MyWorkPlace/myWorkspace/KatalonWorkspace/Sample Project/Reports/Demosuite/20181128_013254"/>
+         <property name="logFiles" value="/Users/apple/MyWorkPlace/myWorkspace/KatalonWorkspace/Sample Project/Reports/Demosuite/20181128_013254/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="KSS - 192.168.27.108"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.27.108"/>
+         <property name="sessionId" value="381a47f60a70788ce469f82edcfbebc7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/DragNDrop" classname="Test Cases/DragNDrop" status="PASSED">
+         <system-out><![CDATA[2018-11-28 01:32:59 - [TEST_CASE][PASSED] - Test Cases/DragNDrop: Test Cases/DragNDrop
+
+2018-11-28 01:33:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-11-28 01:33:08 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-11-28 01:33:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://jqueryui.com/droppable/' successfully
+
+2018-11-28 01:33:14 - [MESSAGE][PASSED] - Navigate to 'http://jqueryui.com/droppable/' successfully
+
+2018-11-28 01:33:14 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-28 01:33:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-28 01:33:14 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/dragDrop/Page_Droppable/iframe_Visual'
+
+2018-11-28 01:33:14 - [TEST_STEP][PASSED] - dragAndDropToObject: Dragged object with id 'Object Repository/dragDrop/Page_Droppable/div_DragMe' to object with id 'TestObject - 'Object Repository/dragDrop/Page_Droppable/div_Dropped'' successfully
+
+2018-11-28 01:33:16 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/dragDrop/Page_Droppable/div_DragMe' to object with id 'TestObject - 'Object Repository/dragDrop/Page_Droppable/div_Dropped'' successfully
+
+2018-11-28 01:33:16 - [TEST_STEP][PASSED] - Statement - java.lang.Thread.sleep(5000): null
+
+2018-11-28 01:33:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-28 01:33:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OHRMTests/LoginValidation" classname="Test Cases/OHRMTests/LoginValidation" status="PASSED">
+         <system-out><![CDATA[2018-11-28 01:33:21 - [TEST_CASE][PASSED] - Test Cases/OHRMTests/LoginValidation: Test Cases/OHRMTests/LoginValidation
+
+2018-11-28 01:33:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2018-11-28 01:33:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2018-11-28 01:33:28 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-28 01:33:28 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-28 01:33:28 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_username'
+
+2018-11-28 01:33:28 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_username'
+
+2018-11-28 01:33:28 - [TEST_STEP][PASSED] - setText: Text 'admin123' is set on object 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_password'
+
+2018-11-28 01:33:28 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_password'
+
+2018-11-28 01:33:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_submit' is clicked on
+
+2018-11-28 01:33:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_submit' is clicked on
+
+2018-11-28 01:33:30 - [TEST_STEP][PASSED] - Statement - actual_value = "Welcome Admin": null
+
+2018-11-28 01:33:30 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/OHRMPages/OHRM_Profile/user_profile' are matched.
+
+2018-11-28 01:33:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OHRMPages/OHRM_Profile/user_profile' are matched.
+
+2018-11-28 01:33:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-28 01:33:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-28 01:32:58 - [TEST_SUITE][PASSED] - Demosuite: Test Cases/OHRMTests/LoginValidation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

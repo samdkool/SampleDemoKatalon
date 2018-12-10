@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,Firefox 63.0,,2018-11-28 01:32:59,2018-11-28 01:33:29,30.529s,PASSED
+,,,,,,
+Test Cases/DragNDrop,Firefox 63.0,,2018-11-28 01:33:00,2018-11-28 01:33:29,29.351s,PASSED
+openBrowser,Firefox 63.0,,2018-11-28 01:33:01,2018-11-28 01:33:15,14.025s,PASSED
+navigateToUrl,Firefox 63.0,,2018-11-28 01:33:15,2018-11-28 01:33:18,3.064s,PASSED
+maximizeWindow,Firefox 63.0,,2018-11-28 01:33:18,2018-11-28 01:33:22,3.588s,PASSED
+switchToFrame,Firefox 63.0,,2018-11-28 01:33:22,2018-11-28 01:33:22,0.120s,PASSED
+dragAndDropToObject,Firefox 63.0,,2018-11-28 01:33:22,2018-11-28 01:33:23,1.420s,PASSED
+Statement - java.lang.Thread.sleep(5000),Firefox 63.0,,2018-11-28 01:33:23,2018-11-28 01:33:28,5.010s,PASSED
+closeBrowser,Firefox 63.0,,2018-11-28 01:33:28,2018-11-28 01:33:29,0.901s,PASSED
