@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demosuite,Chrome 70.0.3538.110,,2018-12-12 22:35:33,2018-12-12 22:37:04,1m - 30.888s,FAILED
+,,,,,,
+Test Cases/DragNDrop,Chrome 70.0.3538.110,,2018-12-12 22:35:33,2018-12-12 22:35:58,25.380s,PASSED
+"openBrowser(""http://jqueryui.com/droppable/"")",Chrome 70.0.3538.110,,2018-12-12 22:35:34,2018-12-12 22:35:52,18.224s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-12 22:35:52,2018-12-12 22:35:52,0.260s,PASSED
+"switchToFrame(findTestObject(""dragDrop/Page_Droppable/iframe_Visual""), 3)",Chrome 70.0.3538.110,,2018-12-12 22:35:52,2018-12-12 22:35:52,0.134s,PASSED
+"dragAndDropToObject(findTestObject(""dragDrop/Page_Droppable/div_DragMe""), findTestObject(""dragDrop/Page_Droppable/div_Dropped""))",Chrome 70.0.3538.110,,2018-12-12 22:35:52,2018-12-12 22:35:53,1.121s,PASSED
+Thread.sleep(5000),Chrome 70.0.3538.110,,2018-12-12 22:35:53,2018-12-12 22:35:58,5.012s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-12 22:35:58,2018-12-12 22:35:58,0.103s,PASSED
+,,,,,,
+Test Cases/OHRMTests/LoginValidation,Chrome 70.0.3538.110,,2018-12-12 22:35:58,2018-12-12 22:36:17,18.139s,PASSED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",Chrome 70.0.3538.110,,2018-12-12 22:35:59,2018-12-12 22:36:12,13.269s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-12 22:36:12,2018-12-12 22:36:12,0.229s,PASSED
+"setText(findTestObject(""Object Repository/OHRMPages/OHRM_LoginPage/OHRM_username""), userName)",Chrome 70.0.3538.110,,2018-12-12 22:36:12,2018-12-12 22:36:12,0.218s,PASSED
+"setText(findTestObject(""Object Repository/OHRMPages/OHRM_LoginPage/OHRM_password""), passWord)",Chrome 70.0.3538.110,,2018-12-12 22:36:12,2018-12-12 22:36:13,0.161s,PASSED
+"click(findTestObject(""Object Repository/OHRMPages/OHRM_LoginPage/OHRM_submit""))",Chrome 70.0.3538.110,,2018-12-12 22:36:13,2018-12-12 22:36:16,3.817s,PASSED
+"actual_value = ""Welcome Admin""",Chrome 70.0.3538.110,,2018-12-12 22:36:16,2018-12-12 22:36:16,0.001s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OHRMPages/OHRM_Profile/user_profile""), actual_value, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-12 22:36:16,2018-12-12 22:36:16,0.089s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-12 22:36:16,2018-12-12 22:36:17,0.138s,PASSED
+,,,,,,
+Test Cases/OHRMTests/LoginValidation,Chrome 70.0.3538.110,,2018-12-12 22:36:17,2018-12-12 22:37:03,46.784s,FAILED
+"openBrowser(""https://opensource-demo.orangehrmlive.com/"")",Chrome 70.0.3538.110,,2018-12-12 22:36:17,2018-12-12 22:36:30,13.736s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-12 22:36:30,2018-12-12 22:36:31,0.228s,PASSED
+"setText(findTestObject(""Object Repository/OHRMPages/OHRM_LoginPage/OHRM_username""), userName)",Chrome 70.0.3538.110,,2018-12-12 22:36:31,2018-12-12 22:36:31,0.166s,PASSED
+"setText(findTestObject(""Object Repository/OHRMPages/OHRM_LoginPage/OHRM_password""), passWord)",Chrome 70.0.3538.110,,2018-12-12 22:36:31,2018-12-12 22:36:31,0.134s,PASSED
+"click(findTestObject(""Object Repository/OHRMPages/OHRM_LoginPage/OHRM_submit""))",Chrome 70.0.3538.110,,2018-12-12 22:36:31,2018-12-12 22:36:32,0.908s,PASSED
+"actual_value = ""Welcome Admin""",Chrome 70.0.3538.110,,2018-12-12 22:36:32,2018-12-12 22:36:32,0.001s,PASSED
+"verifyElementText(findTestObject(""Object Repository/OHRMPages/OHRM_Profile/user_profile""), actual_value, STOP_ON_FAILURE)",Chrome 70.0.3538.110,,2018-12-12 22:36:32,2018-12-12 22:37:03,31.593s,FAILED

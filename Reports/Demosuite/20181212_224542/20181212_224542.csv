@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Demosuite,Chrome 70.0.3538.110,,2018-12-12 22:45:47,2018-12-12 22:46:29,42.027s,PASSED
+,,,,,,
+Test Cases/DragNDrop,Chrome 70.0.3538.110,,2018-12-12 22:45:48,2018-12-12 22:46:29,41.385s,PASSED
+"openBrowser(""http://jqueryui.com/droppable/"")",Chrome 70.0.3538.110,,2018-12-12 22:45:49,2018-12-12 22:46:22,33.528s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2018-12-12 22:46:22,2018-12-12 22:46:23,0.295s,PASSED
+"switchToFrame(findTestObject(""dragDrop/Page_Droppable/iframe_Visual""), 3)",Chrome 70.0.3538.110,,2018-12-12 22:46:23,2018-12-12 22:46:23,0.299s,PASSED
+"dragAndDropToObject(findTestObject(""dragDrop/Page_Droppable/div_DragMe""), findTestObject(""dragDrop/Page_Droppable/div_Dropped""))",Chrome 70.0.3538.110,,2018-12-12 22:46:23,2018-12-12 22:46:24,1.342s,PASSED
+Thread.sleep(5000),Chrome 70.0.3538.110,,2018-12-12 22:46:24,2018-12-12 22:46:29,5.010s,PASSED
+closeBrowser(),Chrome 70.0.3538.110,,2018-12-12 22:46:29,2018-12-12 22:46:29,0.110s,PASSED

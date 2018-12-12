@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demosuite" time="90" tests="2" failures="1" errors="0">
+   <testsuite name="Demosuite" tests="2" failures="1" errors="0" time="90" timestamp="2018-12-12 22:35:33" hostname="KSS - 192.168.27.106" id="Test Suites/Demosuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/apple/MyWorkPlace/myWorkspace/KatalonWorkspace/Sample Project/Reports/Demosuite/20181212_223529"/>
+         <property name="logFiles" value="/Users/apple/MyWorkPlace/myWorkspace/KatalonWorkspace/Sample Project/Reports/Demosuite/20181212_223529/execution0.log"/>
+         <property name="attachments" value="/Users/apple/MyWorkPlace/myWorkspace/KatalonWorkspace/Sample Project/Reports/Demosuite/20181212_223529/1544634423319.png, /Users/apple/MyWorkPlace/myWorkspace/KatalonWorkspace/Sample Project/Reports/Demosuite/20181212_223529/1544634423622.png"/>
+         <property name="hostName" value="KSS - 192.168.27.106"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.27.106"/>
+         <property name="sessionId" value="7899e24c6aead7ee1081f59f9f678337"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/DragNDrop" classname="Test Cases/DragNDrop" status="PASSED">
+         <system-out><![CDATA[2018-12-12 22:35:33 - [TEST_CASE][PASSED] - Test Cases/DragNDrop: Test Cases/DragNDrop
+
+2018-12-12 22:35:34 - [TEST_STEP][PASSED] - openBrowser("http://jqueryui.com/droppable/"): Browser is opened with url: 'http://jqueryui.com/droppable/'
+
+2018-12-12 22:35:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-12 22:35:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-12 22:35:52 - [MESSAGE][PASSED] - Browser is opened with url: 'http://jqueryui.com/droppable/'
+
+2018-12-12 22:35:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-12 22:35:52 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-12 22:35:52 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("dragDrop/Page_Droppable/iframe_Visual"), 3): null
+
+2018-12-12 22:35:52 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject("dragDrop/Page_Droppable/div_DragMe"), findTestObject("dragDrop/Page_Droppable/div_Dropped")): Dragged object with id 'Object Repository/dragDrop/Page_Droppable/div_DragMe' to object with id 'TestObject - 'Object Repository/dragDrop/Page_Droppable/div_Dropped'' successfully
+
+2018-12-12 22:35:53 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/dragDrop/Page_Droppable/div_DragMe' to object with id 'TestObject - 'Object Repository/dragDrop/Page_Droppable/div_Dropped'' successfully
+
+2018-12-12 22:35:53 - [TEST_STEP][PASSED] - Thread.sleep(5000): null
+
+2018-12-12 22:35:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-12 22:35:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OHRMTests/LoginValidation" classname="Test Cases/OHRMTests/LoginValidation" status="PASSED">
+         <system-out><![CDATA[2018-12-12 22:35:58 - [TEST_CASE][PASSED] - Test Cases/OHRMTests/LoginValidation: Test Cases/OHRMTests/LoginValidation
+
+2018-12-12 22:35:59 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2018-12-12 22:35:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-12 22:36:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2018-12-12 22:36:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-12 22:36:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-12 22:36:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OHRMPages/OHRM_LoginPage/OHRM_username"), userName): Text 'Admin' is set on object 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_username'
+
+2018-12-12 22:36:12 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_username'
+
+2018-12-12 22:36:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OHRMPages/OHRM_LoginPage/OHRM_password"), passWord): Text 'admin123' is set on object 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_password'
+
+2018-12-12 22:36:13 - [MESSAGE][PASSED] - Text 'admin123' is set on object 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_password'
+
+2018-12-12 22:36:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OHRMPages/OHRM_LoginPage/OHRM_submit")): Object: 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_submit' is clicked on
+
+2018-12-12 22:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_submit' is clicked on
+
+2018-12-12 22:36:16 - [TEST_STEP][PASSED] - actual_value = "Welcome Admin": null
+
+2018-12-12 22:36:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/OHRMPages/OHRM_Profile/user_profile"), actual_value, STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/OHRMPages/OHRM_Profile/user_profile' are matched.
+
+2018-12-12 22:36:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/OHRMPages/OHRM_Profile/user_profile' are matched.
+
+2018-12-12 22:36:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-12 22:36:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OHRMTests/LoginValidation" classname="Test Cases/OHRMTests/LoginValidation" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OHRMTests/LoginValidation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OHRMPages/OHRM_Profile/user_profile' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OHRMPages/OHRM_Profile/user_profile' located by 'By.xpath: //a[@id='welcome']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3647)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at LoginValidation.run(LoginValidation:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544634329357.run(TempTestSuite1544634329357.groovy:36)
+"/>
+         <system-out><![CDATA[2018-12-12 22:36:17 - [TEST_CASE][FAILED] - Test Cases/OHRMTests/LoginValidation: Test Cases/OHRMTests/LoginValidation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OHRMPages/OHRM_Profile/user_profile' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OHRMPages/OHRM_Profile/user_profile' located by 'By.xpath: //a[@id='welcome']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3647)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at LoginValidation.run(LoginValidation:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544634329357.run(TempTestSuite1544634329357.groovy:36)
+
+
+2018-12-12 22:36:17 - [TEST_STEP][PASSED] - openBrowser("https://opensource-demo.orangehrmlive.com/"): Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2018-12-12 22:36:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-12 22:36:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://opensource-demo.orangehrmlive.com/'
+
+2018-12-12 22:36:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-12 22:36:31 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-12 22:36:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OHRMPages/OHRM_LoginPage/OHRM_username"), userName): Text 'sam' is set on object 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_username'
+
+2018-12-12 22:36:31 - [MESSAGE][PASSED] - Text 'sam' is set on object 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_username'
+
+2018-12-12 22:36:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/OHRMPages/OHRM_LoginPage/OHRM_password"), passWord): Text 'sam123' is set on object 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_password'
+
+2018-12-12 22:36:31 - [MESSAGE][PASSED] - Text 'sam123' is set on object 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_password'
+
+2018-12-12 22:36:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/OHRMPages/OHRM_LoginPage/OHRM_submit")): Object: 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_submit' is clicked on
+
+2018-12-12 22:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/OHRMPages/OHRM_LoginPage/OHRM_submit' is clicked on
+
+2018-12-12 22:36:32 - [TEST_STEP][PASSED] - actual_value = "Welcome Admin": null
+
+2018-12-12 22:36:32 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/OHRMPages/OHRM_Profile/user_profile"), actual_value, STOP_ON_FAILURE): verifyElementText(findTestObject("Object Repository/OHRMPages/OHRM_Profile/user_profile"), actual_value, STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OHRMPages/OHRM_Profile/user_profile' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OHRMPages/OHRM_Profile/user_profile' located by 'By.xpath: //a[@id='welcome']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3647)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at LoginValidation.run(LoginValidation:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544634329357.run(TempTestSuite1544634329357.groovy:36)
+
+
+2018-12-12 22:37:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='welcome']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2018-12-12 22:37:03 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OHRMPages/OHRM_Profile/user_profile' located by 'By.xpath: //a[@id='welcome']' not found
+[[ATTACHMENT|/Users/apple/MyWorkPlace/myWorkspace/KatalonWorkspace/Sample Project/Reports/Demosuite/20181212_223529/1544634423319.png]]
+
+2018-12-12 22:37:03 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/OHRMPages/OHRM_Profile/user_profile' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OHRMPages/OHRM_Profile/user_profile' located by 'By.xpath: //a[@id='welcome']' not found)
+[[ATTACHMENT|/Users/apple/MyWorkPlace/myWorkspace/KatalonWorkspace/Sample Project/Reports/Demosuite/20181212_223529/1544634423622.png]]
+
+2018-12-12 22:37:03 - [MESSAGE][FAILED] - verifyElementText(findTestObject("Object Repository/OHRMPages/OHRM_Profile/user_profile"), actual_value, STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OHRMPages/OHRM_Profile/user_profile' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OHRMPages/OHRM_Profile/user_profile' located by 'By.xpath: //a[@id='welcome']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3647)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at LoginValidation.run(LoginValidation:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544634329357.run(TempTestSuite1544634329357.groovy:36)]]></system-out>
+         <system-err><![CDATA[2018-12-12 22:36:17 - [TEST_CASE][FAILED] - Test Cases/OHRMTests/LoginValidation: Test Cases/OHRMTests/LoginValidation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OHRMPages/OHRM_Profile/user_profile' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OHRMPages/OHRM_Profile/user_profile' located by 'By.xpath: //a[@id='welcome']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3647)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at LoginValidation.run(LoginValidation:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544634329357.run(TempTestSuite1544634329357.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-12 22:35:33 - [TEST_SUITE][FAILED] - Demosuite: Test Cases/OHRMTests/LoginValidation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OHRMPages/OHRM_Profile/user_profile' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OHRMPages/OHRM_Profile/user_profile' located by 'By.xpath: //a[@id='welcome']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3647)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at LoginValidation.run(LoginValidation:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544634329357.run(TempTestSuite1544634329357.groovy:36)]]></system-out>
+      <system-err><![CDATA[2018-12-12 22:35:33 - [TEST_SUITE][FAILED] - Demosuite: Test Cases/OHRMTests/LoginValidation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/OHRMPages/OHRM_Profile/user_profile' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OHRMPages/OHRM_Profile/user_profile' located by 'By.xpath: //a[@id='welcome']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3647)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$6.call(Unknown Source)
+	at LoginValidation.run(LoginValidation:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:321)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:291)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:283)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:222)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1544634329357.run(TempTestSuite1544634329357.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
